@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingLazerMaze.UI", "AmazingLazerMaze.App\AmazingLazerMaze.UI.csproj", "{60FE128C-8A73-4653-9F12-8206FBB33059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingLazerMaze.Common", "AmazingLazerMaze.Domain\AmazingLazerMaze.Common.csproj", "{4817F287-65E6-440C-A33B-F8654FA7B665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingLazerMaze.Repository", "AmazingLazerMaze.Repository\AmazingLazerMaze.Repository.csproj", "{7AE32834-E734-4046-84A7-30178B210119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingLazerMaze.Services", "AmazingLazerMaze.Services\AmazingLazerMaze.Services.csproj", "{AB93BDA4-050E-4B97-BEF5-A51F96DCCEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingLazerMaze.Data", "AmazingLazerMaze.Data\AmazingLazerMaze.Data.csproj", "{DAA3C034-D46B-4420-AFCF-9AA444A8882E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FE128C-8A73-4653-9F12-8206FBB33059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FE128C-8A73-4653-9F12-8206FBB33059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FE128C-8A73-4653-9F12-8206FBB33059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FE128C-8A73-4653-9F12-8206FBB33059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4817F287-65E6-440C-A33B-F8654FA7B665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4817F287-65E6-440C-A33B-F8654FA7B665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4817F287-65E6-440C-A33B-F8654FA7B665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4817F287-65E6-440C-A33B-F8654FA7B665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE32834-E734-4046-84A7-30178B210119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE32834-E734-4046-84A7-30178B210119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE32834-E734-4046-84A7-30178B210119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE32834-E734-4046-84A7-30178B210119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB93BDA4-050E-4B97-BEF5-A51F96DCCEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB93BDA4-050E-4B97-BEF5-A51F96DCCEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB93BDA4-050E-4B97-BEF5-A51F96DCCEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB93BDA4-050E-4B97-BEF5-A51F96DCCEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA3C034-D46B-4420-AFCF-9AA444A8882E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA3C034-D46B-4420-AFCF-9AA444A8882E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA3C034-D46B-4420-AFCF-9AA444A8882E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA3C034-D46B-4420-AFCF-9AA444A8882E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0917B50-8553-4E1F-8D70-3B9785E767D4}
+	EndGlobalSection
+EndGlobal

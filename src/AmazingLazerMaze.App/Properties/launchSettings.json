@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AmazingLazerMaze.UI": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\joelw\\source\\repos\\JoelWynes.AmazingLazerMaze\\AmazingLazerMaze.App\\DataFiles\\MazeDefinition.txt"
+    }
+  }
+}
