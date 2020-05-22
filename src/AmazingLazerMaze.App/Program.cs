@@ -70,6 +70,7 @@ namespace JoelWynes.AmazingLazerMaze.UI
                 // I ran out of time to get the calculations for lazer exit,
                 // so enjoy the sound byte :)
                 lazerMazeService.PewPewPew();
+                Console.WriteLine("Pew Pew Pew! Laser was fired!");
 
                 Console.ReadLine();
             }

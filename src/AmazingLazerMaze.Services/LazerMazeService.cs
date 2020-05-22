@@ -32,15 +32,13 @@ namespace JoelWynes.AmazingLazerMaze.Services
             player.SoundLocation = Directory.GetCurrentDirectory() + "/Pew_Pew.wav";
             player.Play();
 
-
-
         }
 
         public LazerMazeDetailsModel GetBoardDimensions(MazeBoardDto mazeBoardDto)
         {
             var model = new LazerMazeDetailsModel();
 
-            int top = mazeBoardDto.MazeRooms.Max(r => r.XCoordinate);
+            int top = mazeBoardDto.MazeRooms.Max(r => r.YCoordinate) + 1;
             int right = mazeBoardDto.MazeRooms.Max(r => r.XCoordinate) + 1;
 
             model.BoardDemensions = $"Lazer Maze Board Dimensions: {right}x{top}";
